@@ -91,10 +91,30 @@ nav ul li{
 
     padding: 0.85rem;
     border-radius: 0.57rem;
+
 }
 
 
 .bio{
     font-family: Inter, sans-serif;
+}
+
+li {
+    transition: color 1s , background-color 1s;
+}
+
+li:hover{
+    background-color: var(--green);
+    color: var(--grey-700);
+
+    transition: all 0.15s;
+
+}
+li:focus{
+    background-color: var(--green);
+    color: var(--grey-700);
+
+    transition: all 0.15s;
+
 }
 
