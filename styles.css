@@ -49,12 +49,17 @@ article{
     flex-direction: column;
     gap: 1.71rem ;
 
+
     padding: 1.71rem;
     border-radius: 12px;
 
-    width: 327px;
+    width: 23.36rem;
 
 }
+article p{
+    align-self: center;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -64,6 +69,8 @@ header{
 
     h1{
         font-size: 1.71rem;
+        font-family: Inter,sans-serif;
+        font-weight: 600;
     }
     p{
         color: var(--green);
@@ -106,7 +113,10 @@ button {
     transition: color 1s , background-color 1s;
 }
 @media (min-width: 768px){
-
+    article{
+        width: 27.43rem;
+        padding: 2.86rem ;
+    }
 
 
 
