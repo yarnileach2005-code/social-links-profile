@@ -108,10 +108,9 @@ button{
 
     background-color: var(--grey-700);
     border: none;
-}
-button {
     transition: color 1s , background-color 1s;
 }
+
 @media (min-width: 768px){
     article{
         width: 27.43rem;
